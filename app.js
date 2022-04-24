@@ -38,7 +38,7 @@ tilbake.addEventListener("click", function(){
   if(currentImage === bilder.length){
     currentImage = 0;
   }
-bilde.scr = bilder[currentImage].link;
+bilde.src = bilder[currentImage].link;
 description.textContent = bilder[currentImage].text;
 });
 
@@ -47,6 +47,6 @@ neste.addEventListener("click", function(){
   if(currentImage === - 1){
     currentImage = bilder.length - 1;
   }
-bilde.scr = bilder[currentImage].link;
+bilde.src = bilder[currentImage].link;
 description.textContent = bilder[currentImage].text
 });
